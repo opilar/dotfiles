@@ -172,8 +172,7 @@ call pathogen#infect()
 " " Settings for vim-powerline
 " " cd ~/.vim/bundle
 " " git clone git://github.com/Lokaltog/vim-powerline.git
-" "" set laststatus=2
-"
+set laststatus=2
 "
 " " Settings for ctrlp
 " " cd ~/.vim/bundle
@@ -182,7 +181,6 @@ call pathogen#infect()
 " "" set wildignore+=*.pyc
 " "" set wildignore+=*_build/*
 " "" set wildignore+=*/coverage/*
-"
 "
 " " Settings for python-mode
 " " Note: I'm no longer using this. Leave this commented out
@@ -224,7 +222,6 @@ call pathogen#infect()
 "
 " "" inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
 " "" inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
-"
 "
 " " Python folding
 " " mkdir -p ~/.vim/ftplugin
