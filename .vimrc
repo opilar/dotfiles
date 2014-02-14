@@ -228,3 +228,8 @@ set laststatus=2
 " " wget -O ~/.vim/ftplugin/python_editing.vim
 " http://www.vim.org/scripts/download_script.php?src_id=5492
 " "" set nofoldenable
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'Lokaltog/vim-powerline'
