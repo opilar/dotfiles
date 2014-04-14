@@ -49,3 +49,6 @@ export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/s
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export LC_ALL=ru_RU.UTF-8
+export LANG=ru_RU.UTF-8
