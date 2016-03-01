@@ -28,7 +28,7 @@ fail () {
 }
 
 setup_gitconfig () {
-  if ! [ -f git/gitconfig.local.symlink ]
+  if [ ! -f git/gitconfig.symlink ]
   then
     info 'setup gitconfig'
 
@@ -38,12 +38,7 @@ setup_gitconfig () {
       git_credential='osxkeychain'
     fi
 
-    user ' - What is your github author name?'
-    read -e git_authorname
-    user ' - What is your github author email?'
-    read -e git_authoremail
-
-    sed -e "s/AUTHORNAME/$git_authorname/g" -e "s/AUTHOREMAIL/$git_authoremail/g" -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" git/gitconfig.local.symlink.example > git/gitconfig.local.symlink
+    sed -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" git/gitconfig.symlink.example > git/gitconfig.symlink
 
     success 'gitconfig'
   fi
@@ -137,7 +132,7 @@ install_dotfiles () {
   done
 }
 
-# setup_gitconfig
+setup_gitconfig
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.

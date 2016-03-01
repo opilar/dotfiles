@@ -1,0 +1,10 @@
+[user]
+	name = opilarium
+	email = opilar@ya.ru
+[push]
+	default = current
+[core]
+	quotepath = off
+	editor = vim
+[credential]
+    helper = GIT_CREDENTIAL_HELPER
