@@ -132,8 +132,14 @@ install_dotfiles () {
   done
 }
 
+install_vim_plugins () {
+    git submodule update
+    vim +PluginInstall +qall
+}
+
 setup_gitconfig
 install_dotfiles
+install_vim_plugins
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
