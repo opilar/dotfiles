@@ -36,3 +36,9 @@ set wrap
 
 set shiftwidth=4
 set tabstop=4
+
+set colorcolumn=110
+
+"""
+set exrc
+set secure
