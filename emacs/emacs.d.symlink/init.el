@@ -12,3 +12,5 @@
 (scroll-bar-mode -1)
 
 (desktop-save-mode t)
+
+(load-theme 'solarized-dark t)
