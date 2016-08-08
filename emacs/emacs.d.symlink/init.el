@@ -4,9 +4,11 @@
 (add-to-list 'package-archives
              '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
+(projectile-global-mode)
 
 (package-initialize)
+
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
 
 (desktop-save-mode t)
