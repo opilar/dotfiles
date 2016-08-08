@@ -1,13 +1,12 @@
 (require 'package) 
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
-
 (add-to-list 'package-archives
              '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-(projectile-global-mode)
-
 (package-initialize)
+
+(desktop-save-mode t)
