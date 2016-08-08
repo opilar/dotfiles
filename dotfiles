@@ -1,0 +1,14 @@
+  /Users/opilar/dotfiles:
+  total used in directory 48 available 5119154
+D -rwxr-xr-x   1 opilar  staff  2895 Jun  1 23:39 #bootstrap#
+  drwxr-xr-x  12 opilar  staff   408 Jun  5 22:16 .
+  drwxr-xr-x+ 82 opilar  staff  2788 Jun  7 00:14 ..
+  drwxr-xr-x  17 opilar  staff   578 Jun  7 00:14 .git
+  -rw-r--r--   1 opilar  staff    85 Mar  7 14:54 .gitignore
+  -rw-r--r--   1 opilar  staff   137 Mar  6 12:12 .gitmodules
+  -rw-r--r--   1 opilar  staff  1784 Feb 28 23:29 .zshrc
+  -rw-r--r--   1 opilar  staff    86 Mar  2 00:47 README.md
+  -rwxr-xr-x   1 opilar  staff  2895 May 26 00:08 bootstrap
+  drwxr-xr-x   4 opilar  staff   136 Jun  5 21:34 emacs
+  drwxr-xr-x   4 opilar  staff   136 Mar  7 14:56 git
+  drwxr-xr-x   4 opilar  staff   136 May 29 19:23 vim
