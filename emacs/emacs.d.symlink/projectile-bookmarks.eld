@@ -1,1 +1,1 @@
-("~/dotfiles/")
+("~/fastText/" "~/dotfiles/")
