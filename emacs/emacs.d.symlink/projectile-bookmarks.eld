@@ -1,1 +1,1 @@
-("~/fastText/" "~/dotfiles/")
+("~/sbis3-core-external-libs/" "~/fastText/" "~/dotfiles/")

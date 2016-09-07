@@ -12,4 +12,4 @@
 (projectile-mode)
 (desktop-save-mode t)
 
-(load-theme 'solarized-dark t)
+(load-theme 'solarized-light t)
