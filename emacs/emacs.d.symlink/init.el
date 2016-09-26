@@ -11,5 +11,8 @@
 
 (projectile-mode)
 (desktop-save-mode t)
+(ido-mode)
 
 (load-theme 'solarized-light t)
+
+(global-set-key (kdb "C-x C-b") 'ibuffer)
