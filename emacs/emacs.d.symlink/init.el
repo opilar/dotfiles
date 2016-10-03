@@ -15,5 +15,5 @@
 
 (load-theme 'solarized-light t)
 
-(global-set-key (kdb "C-x C-b") 'ibuffer)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
