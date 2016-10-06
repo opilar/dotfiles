@@ -1,0 +1,19 @@
+[user]
+	name = opilarium
+	email = opilar@ya.ru
+[push]
+	default = current
+[core]
+	quotepath = off
+	editor = vim
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+

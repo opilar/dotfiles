@@ -1,0 +1,13 @@
+# Git
+git/gitconfig.symlink
+
+# Vim
+vim/vim.symlink/.netrwhist
+vim/vim.symlink/bundle
+
+# Emacs
+#*#
+*.el~
+*.elc
+/emacs/emacs.d.symlink/.emacs.desktop*
+/emacs/emacs.d.symlink/auto-save-list/
