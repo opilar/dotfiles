@@ -24,11 +24,16 @@ re-downloaded in order to locate PACKAGE."
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
+(require-package 'projectile)
 (projectile-mode)
 (desktop-save-mode t)
-
+p
 (ido-mode)
 
+(require-package 'solarized-theme)
 (load-theme 'solarized-light t)
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+
+(require-package 'magit)
+(require-package 'cmake-mode)
