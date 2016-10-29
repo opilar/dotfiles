@@ -27,7 +27,7 @@ re-downloaded in order to locate PACKAGE."
 (require-package 'projectile)
 (projectile-mode)
 (desktop-save-mode t)
-p
+
 (ido-mode)
 
 (require-package 'solarized-theme)
