@@ -31,9 +31,11 @@ re-downloaded in order to locate PACKAGE."
 (ido-mode)
 
 (require-package 'solarized-theme)
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
 (require-package 'magit)
+(global-set-key (kbd "C-x g") 'magit-status)
+
 (require-package 'cmake-mode)
