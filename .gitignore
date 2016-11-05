@@ -11,3 +11,4 @@ vim/vim.symlink/bundle
 *.elc
 /emacs/emacs.d.symlink/.emacs.desktop*
 /emacs/emacs.d.symlink/auto-save-list/
+/emacs/emacs.d.symlink/elpa/
