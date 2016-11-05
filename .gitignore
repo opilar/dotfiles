@@ -1,10 +1,6 @@
 # Git
 git/gitconfig.symlink
 
-# Vim
-vim/vim.symlink/.netrwhist
-vim/vim.symlink/bundle
-
 # Emacs
 #*#
 *.el~
