@@ -25,7 +25,7 @@ re-downloaded in order to locate PACKAGE."
 (scroll-bar-mode -1)
 
 (require-package 'projectile)
-; (projectile-mode)
+
 (desktop-save-mode t)
 
 (ido-mode)
