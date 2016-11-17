@@ -29,6 +29,8 @@ re-downloaded in order to locate PACKAGE."
 (desktop-save-mode t)
 
 (ido-mode)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
 
 (require-package 'solarized-theme)
 (load-theme 'solarized-dark t)
