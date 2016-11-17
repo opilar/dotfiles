@@ -35,6 +35,8 @@ re-downloaded in order to locate PACKAGE."
 (require-package 'solarized-theme)
 (load-theme 'solarized-dark t)
 
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
 (require-package 'magit)
