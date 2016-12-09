@@ -32,8 +32,8 @@ re-downloaded in order to locate PACKAGE."
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 
-(require-package 'solarized-theme)
-(load-theme 'solarized-dark t)
+(require-package 'zenburn-theme)
+(load-theme 'zenburn t)
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
