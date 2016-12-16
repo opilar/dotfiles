@@ -1,8 +1,8 @@
-(require 'package) 
+(require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/"))
+	     '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'package-archives
-             '("elpy" . "https://jorgenschaefer.github.io/packages/"))
+	     '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 (package-initialize)
 
@@ -13,13 +13,13 @@ re-downloaded in order to locate PACKAGE."
   (if (package-installed-p package min-version)
       t
     (if (or (assoc package package-archive-contents) no-refresh)
-        (if (boundp 'package-selected-packages)
-            ;; Record this as a package the user installed explicitly
-            (package-install package nil)
-          (package-install package))
+	(if (boundp 'package-selected-packages)
+	    ;; Record this as a package the user installed explicitly
+	    (package-install package nil)
+	  (package-install package))
       (progn
-        (package-refresh-contents)
-        (require-package package min-version t)))))
+	(package-refresh-contents)
+	(require-package package min-version t)))))
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
@@ -57,6 +57,7 @@ re-downloaded in order to locate PACKAGE."
 (global-unset-key (kbd "<M-up>"))
 (global-unset-key (kbd "<M-down>"))
 
+;; Ask "y" or "n" instead of "yes" or "no". Yes, laziness is great.
 (fset 'yes-or-no-p 'y-or-n-p)
 
 (setq confirm-nonexistent-file-or-buffer nil)
@@ -68,3 +69,34 @@ re-downloaded in order to locate PACKAGE."
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
+
+;; Highlight corresponding parentheses when cursor is on one
+(show-paren-mode t)
+
+;; Highlight tabulations
+(setq-default highlight-tabs t)
+
+;; Show trailing white spaces
+(setq-default show-trailing-whitespace t)
+
+;; Remove useless whitespace before saving a file
+(add-hook 'before-save-hook 'whitespace-cleanup)
+(add-hook 'before-save-hook (lambda() (delete-trailing-whitespace)))
+
+;; Save backup files in a dedicated directory
+(setq backup-directory-alist '(("." . "~/.saves")))
+
+;; complete anything
+(require-package 'company)
+
+;; auto-close brackets
+(require-package 'autopair)
+(autopair-global-mode)
+
+;; syntax checking
+(require-package 'flycheck)
+
+;; highlight symbol at point
+(require-package 'highlight-symbol)
+
+(require-package 'ido-vertical-mode)
