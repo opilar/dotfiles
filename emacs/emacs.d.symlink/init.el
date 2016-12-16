@@ -56,3 +56,15 @@ re-downloaded in order to locate PACKAGE."
 (global-unset-key (kbd "<M-right>"))
 (global-unset-key (kbd "<M-up>"))
 (global-unset-key (kbd "<M-down>"))
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
+(setq confirm-nonexistent-file-or-buffer nil)
+
+(setq revert-without-query '(".*"))
+
+(require-package 'auto-package-update)
+(auto-package-update-maybe)
+
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
