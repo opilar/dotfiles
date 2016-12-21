@@ -1,8 +1,11 @@
+(setq user-full-name "Michael Rybakov")
+(setq user-mail-address "opilar@ya.ru")
+
 (require 'package)
 (add-to-list 'package-archives
-	     '("melpa" . "https://melpa.org/packages/"))
+         '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'package-archives
-	     '("elpy" . "https://jorgenschaefer.github.io/packages/"))
+         '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 (package-initialize)
 
@@ -13,17 +16,50 @@ re-downloaded in order to locate PACKAGE."
   (if (package-installed-p package min-version)
       t
     (if (or (assoc package package-archive-contents) no-refresh)
-	(if (boundp 'package-selected-packages)
-	    ;; Record this as a package the user installed explicitly
-	    (package-install package nil)
-	  (package-install package))
+    (if (boundp 'package-selected-packages)
+        ;; Record this as a package the user installed explicitly
+        (package-install package nil)
+      (package-install package))
       (progn
-	(package-refresh-contents)
-	(require-package package min-version t)))))
+    (package-refresh-contents)
+    (require-package package min-version t)))))
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+(menu-bar-mode -1)
 
+;; highlighting mark region
+(transient-mark-mode t)
+
+;; system clipboard
+(setq x-select-enable-clipboard t)
+
+(setq-default indicate-empty-lines t)
+(when (not indicate-empty-lines)
+  (toggle-indicate-empty-lines))
+
+;; tab settings
+(setq tab-width 4
+      indent-tabs-mode nil)
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
+(global-set-key (kbd "RET") 'newline-and-indent)
+(global-set-key (kbd "C-;") 'comment-or-uncomment-region)
+
+(setq echo-keystrokes 0.1
+      use-dialog-box nil
+      visible-bell t)
+
+;; Highlight corresponding parentheses when cursor is on one
+(show-paren-mode t)
+
+(setq column-number-mode t)
+
+(require 'auto-complete-config)
+(ac-config-default)
+
+;; plugins
 (require-package 'projectile)
 
 (desktop-save-mode t)
@@ -31,11 +67,13 @@ re-downloaded in order to locate PACKAGE."
 (ido-mode)
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
+(require-package 'ido-vertical-mode)
 
 (require-package 'zenburn-theme)
-(load-theme 'zenburn t)
 
-(define-key global-map (kbd "RET") 'newline-and-indent)
+(if window-system
+    (load-theme 'solarized-light t)
+  (load-theme 'wombat t))
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
@@ -44,6 +82,7 @@ re-downloaded in order to locate PACKAGE."
 
 (require-package 'cmake-mode)
 
+;; force myself not to use arrows
 (global-unset-key (kbd "<left>"))
 (global-unset-key (kbd "<right>"))
 (global-unset-key (kbd "<up>"))
@@ -57,9 +96,6 @@ re-downloaded in order to locate PACKAGE."
 (global-unset-key (kbd "<M-up>"))
 (global-unset-key (kbd "<M-down>"))
 
-;; Ask "y" or "n" instead of "yes" or "no". Yes, laziness is great.
-(fset 'yes-or-no-p 'y-or-n-p)
-
 (setq confirm-nonexistent-file-or-buffer nil)
 
 (setq revert-without-query '(".*"))
@@ -69,9 +105,6 @@ re-downloaded in order to locate PACKAGE."
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
-
-;; Highlight corresponding parentheses when cursor is on one
-(show-paren-mode t)
 
 ;; Highlight tabulations
 (setq-default highlight-tabs t)
@@ -88,15 +121,14 @@ re-downloaded in order to locate PACKAGE."
 
 ;; complete anything
 (require-package 'company)
+(company-mode)
 
 ;; auto-close brackets
 (require-package 'autopair)
 (autopair-global-mode)
 
 ;; syntax checking
-(require-package 'flycheck)
+;; (require-package 'flycheck)
 
 ;; highlight symbol at point
 (require-package 'highlight-symbol)
-
-(require-package 'ido-vertical-mode)
