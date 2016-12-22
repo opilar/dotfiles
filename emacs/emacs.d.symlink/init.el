@@ -56,7 +56,7 @@ re-downloaded in order to locate PACKAGE."
 
 (setq column-number-mode t)
 
-(require 'auto-complete-config)
+; (require 'auto-complete-config)
 (ac-config-default)
 
 ;; plugins
@@ -69,7 +69,7 @@ re-downloaded in order to locate PACKAGE."
 (setq ido-everywhere t)
 (require-package 'ido-vertical-mode)
 
-(require-package 'zenburn-theme)
+(require-package 'solarized-theme)
 
 (if window-system
     (load-theme 'solarized-light t)
