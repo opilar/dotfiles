@@ -3,9 +3,9 @@
 
 (require 'package)
 (add-to-list 'package-archives
-         '("melpa" . "https://melpa.org/packages/"))
+	 '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'package-archives
-         '("elpy" . "https://jorgenschaefer.github.io/packages/"))
+	 '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 (package-initialize)
 
@@ -17,8 +17,8 @@ re-downloaded in order to locate PACKAGE."
       t
     (if (or (assoc package package-archive-contents) no-refresh)
     (if (boundp 'package-selected-packages)
-        ;; Record this as a package the user installed explicitly
-        (package-install package nil)
+	;; Record this as a package the user installed explicitly
+	(package-install package nil)
       (package-install package))
       (progn
     (package-refresh-contents)
@@ -132,3 +132,5 @@ re-downloaded in order to locate PACKAGE."
 
 ;; highlight symbol at point
 (require-package 'highlight-symbol)
+
+(setq next-line-add-newlines t)
