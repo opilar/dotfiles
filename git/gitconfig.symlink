@@ -8,6 +8,7 @@
 	quotepath = off
 	editor = emacs
 	excludesfile = /Users/opilar/.gitignore_global
+	excludefile = /Users/opilar/.gitignore_global
 [alias]
         co = checkout
         ci = commit
