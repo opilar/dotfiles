@@ -62,7 +62,7 @@ re-downloaded in order to locate PACKAGE."
 ;; plugins
 (require-package 'projectile)
 
-(desktop-save-mode t)
+; (desktop-save-mode t)
 
 (ido-mode)
 (setq ido-enable-flex-matching t)
@@ -100,8 +100,8 @@ re-downloaded in order to locate PACKAGE."
 
 (setq revert-without-query '(".*"))
 
-(require-package 'auto-package-update)
-(auto-package-update-maybe)
+; (require-package 'auto-package-update)
+; (auto-package-update-maybe)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
@@ -135,4 +135,4 @@ re-downloaded in order to locate PACKAGE."
 
 (setq next-line-add-newlines t)
 
-(set-default-font "Inconsolata 10")
+(set-default-font "Inconsolata 14")
