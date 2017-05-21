@@ -57,7 +57,7 @@ re-downloaded in order to locate PACKAGE."
 (setq column-number-mode t)
 
 ; (require 'auto-complete-config)
-(ac-config-default)
+; (ac-config-default)
 
 ;; plugins
 (require-package 'projectile)
