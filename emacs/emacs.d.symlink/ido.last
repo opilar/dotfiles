@@ -1,0 +1,226 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/opilar/repos/sbis3/core-server/" . "sbis-db-deployment/")
+ ("/Users/opilar/repos/third-party/boost/" . "test_package/")
+ ("/Users/opilar/repos/third-party/" . "boost/")
+ ("/Users/opilar/Uni/Васильев/" . "second/")
+ ("/Users/opilar/Uni/Чалый - Теория графов/1338-Cars/" . "build-cars-Desktop-Default/")
+ ("/Users/opilar/Uni/Чалый - Теория графов/" . "1338-Cars/")
+ ("/Users/opilar/Uni/" . "Васильев/")
+ ("/Users/opilar/repos/conan-git/conans/test/" . "model/")
+ ("/Users/opilar/repos/conan-git/conans/" . "test/")
+ ("/Users/opilar/repos/conan-git/conans/client/" . "generators/")
+ ("/Users/opilar/repos/conan-git/" . "conans/")
+ ("/Users/opilar/repos/sbis3/cmake/" . "sbis-executable/")
+ ("/Users/opilar/repos/sbis3/tools/" . "cmake_builder/")
+ ("/Users/opilar/repos/sbis3-2/core-server/" . "sbis-archive/")
+ ("/Users/opilar/repos/sbis3-2/test/tests/test-sbis-archive/" . "src/")
+ ("/Users/opilar/repos/sbis3-2/test/tests/" . "test-sbis-archive/")
+ ("/Users/opilar/repos/sbis3-2/test/" . "tests/")
+ ("/Users/opilar/repos/sbis3-2/core-server/sbis-archive/" . "sbis-archive/")
+ ("/Users/opilar/repos/sbis3-2/" . "core-server/")
+ ("/Users/opilar/Documents/Yandex.Disk/" . "Poetry/")
+ ("/Users/opilar/Documents/" . "Yandex.Disk/")
+ ("/Users/opilar/repos/sbis3/core-common/" . "sbis-xerces/")
+ ("/Users/opilar/repos/sbis3/" . "core-common/")
+ ("/Users/" . "opilar/")
+ ("/" . "Users/")
+ ("/Users/opilar/repos/sbis3-core-external-libs/" . "ImageMagick-6.8.3/")
+ ("/Users/opilar/repos/conan/" . "jbigkit/")
+ ("/Users/opilar/dotfiles/emacs/" . "emacs.d.symlink/")
+ ("/Users/opilar/dotfiles/emacs/emacs.d.symlink/" . "auto-save-list/")
+ ("/Users/opilar/repos/tuhdo.github.io/" . "emacs-tutor/")
+ ("/Users/opilar/" . ".emacs.d/")
+ ("/Users/opilar/repos/" . "third-party/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/opilar/.emacs.d/"
+ "/Users/opilar/"
+ "/Users/opilar/repos/sbis3/core-common/sbis-lib/implementation/"
+ "/Users/opilar/repos/sbis3/core-common/sbis-xerces/"
+ "/Users/opilar/repos/sbis3/core-server/sbis-db-deployment/"
+ "/Users/opilar/repos/sbis3/"
+ "/Users/opilar/repos/third-party/boost/"
+ "/Users/opilar/repos/third-party/boost/test_package/"
+ "/Users/opilar/Uni/Васильев/second/"
+ "/Users/opilar/Uni/Васильев/"
+ "/Users/opilar/Uni/Чалый - Теория графов/1338-Cars/build-cars-Desktop-Default/"
+ "/Users/opilar/dotfiles/emacs/emacs.d.symlink/"
+ "/Users/opilar/repos/conan-git/conans/test/model/"
+ "/Users/opilar/repos/conan-git/conans/test/"
+ "/Users/opilar/repos/conan-git/conans/model/"
+ "/Users/opilar/repos/conan-git/conans/client/"
+ "/Users/opilar/repos/conan-git/conans/client/generators/"
+ "/Users/opilar/repos/conan-git/conans/util/"
+ "/Users/opilar/repos/conan-git/conans/client/conf/"
+ "/Users/opilar/repos/conan-git/conans/"
+ "/Users/opilar/Documents/Yandex.Disk/notes/"
+ "/Users/opilar/repos/sbis3/cmake/sbis-executable/"
+ "/Users/opilar/repos/sbis3/core-common/sbis-lib/"
+ "/Users/opilar/repos/sbis3-2/core-server/sbis-archive/sbis-archive/"
+ "/Users/opilar/repos/sbis3-2/test/tests/test-sbis-archive/src/"
+ "/Users/opilar/repos/sbis3-2/core-server/sbis-archive/implementation/"
+ "/Users/opilar/Downloads/"
+ "/Users/opilar/repos/sbis3/cmake/"
+ "/Users/opilar/repos/sbis3-core-external-libs/ImageMagick-6.8.3/"
+ "/Users/opilar/repos/conan/jbigkit/"
+ "/Users/opilar/repos/tuhdo.github.io/emacs-tutor/"
+ "/Users/opilar/dotfiles/"
+ "/Users/opilar/repos/tuhdo.github.io/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ ".zshrc"
+ ".gitignore"
+ "dllmain.cpp"
+ "CMakeLists.txt"
+ "conanfile.py"
+ "data.json"
+ "deal.txt"
+ "apartments.js"
+ "2.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/opilar/.emacs.d/" (23031 28844 0 0) "elpa/" "init.el" "auto-save-list/" "custom.el" "ido.last" "ac-comphist.dat" "../" "./")
+
+ ("/Users/opilar/" (23049 59710 832494 96000) ".zcompdump-opilarium-5.2" ".viminfo" ".zcompdump-opilarium-5.3" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".vscode/" "Documents/" ".npm/" ".Trash/" ".zsh-update" ".profile" "Applications/" "Movies/" ".ssh/" ".rustup/" ".clang-format" ".gitignore" "Public/" ".gitignore_global" ".spumux/" ".cargo/" ".node_repl_history" ".emacs.d/" ".password-store/" ".oracle_jre_usage/" "Library/" "Desktop/" ".zsh_history" ".saves/" ".zprofile" "rust/" ".multirust/" "Pictures/" ".zshrc" ".hgignore_global" ".CFUserTextEncoding" "dotfiles/" ".gnupg/" ".DS_Store" "go/" ".vim/" ".docker/" "repos/" "Music/" ".config/" "../" "./")
+
+ ("/Users/opilar/repos/" (22775 36296 0 0) "tuhdo.github.io/" "third-party/" "test/" "sbis3-core-external-libs/" "sbis3/" "llvm/" "fastText/" "conan-git/" "conan/" "centos-build-image/" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/dotfiles/emacs/emacs.d.symlink/" (22773 21897 0 0) "init.el" "ido.last" "eshell/" "elpa/" "custom.el~" "custom.el" "auto-save-list/" "ac-comphist.dat" ".last-package-update-day" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-common/sbis-lib/implementation/" (22535 62786 0 0) "zip/" "utils/" "types/" "threadpool/" "string_convert/" "statistic/" "serialize/" "record/" "precomp.h" "precomp.cpp" "multiprocessing/" "md5/" "logging/" "lang/" "invariants/" "hash/" "fileutils/" "factory/" "ext_funcs/" "event/" "errors/" "dumps/" "dllmain.cpp" "common/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/" (22622 11525 0 0) "www/" "tools/" "test/" "sdk-info.json" "resources/" "projects/" "mainpage.dxg" "link_ws.bat" "link_modules.sh" "link_modules.bat" "history.txt" "core-server/" "core-common/" "core-client/" "conanfile.pyc" "conanfile.py" "CMakeLists.txt" "client/" "build/" ".gitignore" ".gitattributes" ".git/" ".clang-format" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-common/sbis-xerces/" (22621 39276 0 0) "tools/" "sbis-xerces/" "libs/" "implementation/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-server/sbis-db-deployment/" (22621 36256 0 0) "sbis-db-deployment/" "implementation/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-server/" (22621 36256 0 0) "sbis-workflow-coordinator-client-py/" "sbis-workflow-coordinator-client/" "sbis-websocket/" "sbis-web-server/" "sbis-validation/" "sbis-user/" "sbis-svn-py/" "sbis-svn-client/" "sbis-stress-test-entry-point/" "sbis-stomp-subscription/" "sbis-stomp-server/" "sbis-stats/" "sbis-stat-sender/" "sbis-standalone-auth/" "sbis-ssh-py/" "sbis-ssh/" "sbis-session-storage/" "sbis-runner/" "sbis-rpc-worker/" "sbis-rpc-service/" "sbis-robot-service/" "sbis-right-redis/" "sbis-right/" "sbis-report-prefetch/" "sbis-redis-client-py/" "sbis-python-core/" "sbis-python/" "sbis-params-registration/" "sbis-os-service/" "sbis-olap-server/" "sbis-ofd-entrypoint/" "sbis-oauth-client/" "sbis-multitenancy/" "sbis-multidb/" "sbis-log-sender/" "sbis-load-balancing/" "sbis-libevent/" "sbis-lang/" "sbis-js-xml/" "sbis-js-ws-adaptor/" "sbis-js-transport/" "sbis-js-remote-loader/" "sbis-jni/" "sbis-ipc/" "sbis-http-connector/" "sbis-history/" "sbis-file-transfer-client/" "sbis-fcgi-connector/" "sbis-event-subscription-py/" "sbis-event-subscription/" "sbis-event-broker/" "sbis-entrypoint-py/" "sbis-entrypoint/" "sbis-email-py/" "sbis-distribution/" "sbis-dbi-sqlite/" "sbis-dbi-session-storage/" "sbis-dbi-py/" "sbis-dbi-postgres/" "sbis-dbi/" "sbis-db-sharding/" "sbis-db-deployment/" "sbis-db-converter-py/" "sbis-db-converter/" "sbis-data-localization/" "sbis-data-deployment/" "sbis-daemon/" "sbis-cloud-interaction-py/" "sbis-cloud-interaction/" "sbis-bl-service-py/" "sbis-bl-service/" "sbis-bl-python/" "sbis-bl-metadata-olap/" "sbis-bl-metadata-db/" "sbis-bl-metadata-basic/" "sbis-bl-metadata-auth/" "sbis-bl-core-py/" "sbis-bl-core/" "sbis-bl-cache-service/" "sbis-bl-cache-redis/" "sbis-bl-cache-db/" "sbis-bl-cache/" "sbis-bl-async-offline/" "sbis-bl-async/" "sbis-bl-api-metadata/" "sbis-berkeley-py/" "sbis-berkeley/" "sbis-basic-user/" "sbis-archive-py/" "sbis-archive/" "sbis-api-compatibility/" "sbis-antibot/" "sbis-amqp-client/" "../" "./")
+
+ ("/Users/opilar/Downloads/" (22621 38498 0 0) "лабораторные/" "Космическая Одиссея.epub" "Theremin.app.zip" "Tekhnologii_translyatsii.pdf" "T_Kormen_Ch_Leyzerson_R_Rivest_K_Shtayn_-_Algo.djvu" "T_Kormen_Ch_Leyzerson_R_Rivest_K_Shtayn_-_Algo (1).djvu" "stove.zip" "stove.clp" "Stepyrev.7z" "Stepyrev/" "Robert_Sedzhvik_-_Fundamentalnye_algoritmy_C__Chasti_1-4.djvu" "python-3.5.2-amd64.exe" "pers-types.clp" "log.txt" "lab5.txt" "Kursovaya_rabota_Maranov.docx" "Kozlova_Anna_IT-31.7z" "Kozlova_Anna_5_variant_2_zadanie.docx" "Kozlova_Anna_5_variant_1_zadanie.docx" "knitting.clp" "Inconsolata.otf" "how-to-be-a-programmer-en.epub" "get-pip.py.3fyjiok.partial" "get-pip (1).py.0897ub1.partial" "FP_laby.7z" "FP_2016.zip" "FP_2016/" "FABRIKA_OKON_yaroslavl_3.mp4" "eslintrc.json" "emacsref.pdf" "clips_mac_osx_executable_630.dmg" "blossom5-v2.05.src.tar.gz" "blossom5-v2.05.src/" "7_Èíòåðâàëüíûå_îöåíêè.docx" "2_Individualnoe_Zadanie_Kopteva_Arina_IT21.docx" "2016_-_PI_-_Index.pdf" "2016_-_PI_-_Ekzamenatsionnye_voprosy.pdf" "2.pdf" "2 Индивидуальное Задание. Рыбаков Михаил. ИТ21.pdf" "2 Индивидуальное Задание. Рыбаков Михаил. ИТ21.pages" "2 Индивидуальное Задание. Рыбаков Михаил. ИТ21.docx" "2 Индивидуальное Задание. Рыбаков Михаил. ИТ21 copy.pages" "2 Индивидуальное Задание. Коптева Арина. ИТ21.pages" "2 Индивидуальное Задание. Коптева Арина. ИТ21.docx" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21..pdf" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21..docx" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21.(1).pages" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21.(1).docx" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21. copy.pdf" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21. copy.docx" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-common/sbis-lib/" (22621 36253 0 0) "sbis-lib/" "resources/" "implementation/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/Documents/Yandex.Disk/notes/" (22616 17191 0 0) "uni.org" "cheatsheet.org" "books.org" "../" "./")
+
+ ("/Users/opilar/Uni/Васильев/" (22614 49377 0 0) "Рыбаков Михаил - 2.js.zip" "Рыбаков Михаил - 2.js" "вторая лаба.zip" "вторая лаба/" "second/" "Rybakov Michael - 2.js.zip" "Rybakov Michael - 2.js" "programming-tasks.pdf" "lab1.js" "lab1-input.txt" "Kopteva.js" "kopteva-laba-1.txt" "kopteva-laba-1.js" "Kopteva - 3.js" "aaa.7z" "3.js" "2.js" ".eslintrc.json" "../" "./")
+
+ ("/Users/opilar/Uni/Васильев/second/" (22621 32545 0 0) "validators.js" "main.js" "Icon
+" "deal.txt" "data.json" "data.js" "command.js" "apartments.js" ".eslintrc.json" "../" "./")
+
+ ("/Users/opilar/repos/third-party/boost/test_package/" (22621 38002 0 0) "main.cpp" "conanfile.pyc" "conanfile.py" "CMakeLists.txt" "build/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/core-common/" (22621 36253 0 0) "sbis-xml-py/" "sbis-xml/" "sbis-xerces/" "sbis-vtd-xml/" "sbis-stomp-client/" "sbis-rpc/" "sbis-redis-client/" "sbis-python-loader/" "sbis-loader/" "sbis-lib/" "sbis-js-engine/" "sbis-img-py/" "sbis-img-bl/" "sbis-img/" "sbis-email/" "sbis-communication/" "sbis-app-exceptions/" "../" "./")
+
+ ("/Users/opilar/repos/third-party/boost/" (22621 37805 0 0) "test_package/" "conanfile.py" "../" "./")
+
+ ("/Users/opilar/repos/third-party/" (22621 36611 0 0) "zlib/" "xerces/" "xalan/" "tidy/" "template.pyc" "template.py" "ssh/" "README.md" "png/" "openssl/" "lcms/" "jpeg/" "jbigkit/" "jasper/" "icu/" "iconv/" "curl/" "bzip2/" "boost/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/opilar/Uni/Чалый - Теория графов/1338-Cars/build-cars-Desktop-Default/" (22613 22125 0 0) "rules.ninja" "CMakeFiles/" "CMakeCache.txt" "cmake_install.cmake" "cars.cbp" "cars" "build.ninja" "2.txt" "1.txt~" "1.txt" ".ninja_log" ".ninja_deps" "../" "./")
+
+ ("/Users/opilar/Uni/Чалый - Теория графов/1338-Cars/" (22605 37314 0 0) "cars/" "build-cars-Desktop-Default/" "../" "./")
+
+ ("/Users/opilar/Uni/Чалый - Теория графов/" (22605 37266 0 0) "1338-Cars/" "1099 - Work scheduling/" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/Uni/" (22605 12229 0 0) "Чалый - Теория графов/" "УрМат/" "УП - Башкин/" "ТеорВер.pdf" "Слепырев/" "Программирование/" "Парамонов - Java/" "МЛТА/" "Методы оптимизации - Легков/" "Матан/" "Лагутина - CASE Технологии/" "Курсовая/" "Компьютерные сети - olifer.pdf" "диффуры кр/" "Диффуры - Filippov.pdf" "Дискретка/" "Васильев/" "Богомолов - Доп главы мат статистики/" "БЖД/" "Башкин/" "Алгоритмы и анализ сложности.pdf" "Алгем/" "Wigodskij.M. Sprawotschnik po visschej Matematike 2006.djvu" "Sokolov_V_A_Vvedenie_v_teoriyu_formalnykh_yazykov_20140406.pdf" "Savel_ev_I_V_Kurs_obshchej_fiziki_tom_2_E_le.pdf" "Savel_ev_I_V_Kurs_obshchej_fiziki_tom_1_Meha.pdf" "programming-tasks.pdf" "Osnovy_prava_v0_2.pdf" "Osnovy_prava_v0_1.pdf" "Java_book.pdf" "Itogovy_test.7z" "ChisMet.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/client/conf/" (22593 56332 0 0) "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/client/" (22593 56360 0 0) "userio.py" "uploader.py" "store/" "source.py" "runner.py" "rest/" "require_resolver.py" "remover.py" "remote_registry.py" "remote_manager.py" "proxy.py" "printer.py" "packager.py" "package_copier.py" "output.py" "new.py" "migrations.py" "manifest_manager.py" "manager.py" "loader.py" "installer.py" "importer.py" "generators/" "gcc.py" "file_copier.py" "export.py" "detect.py" "deps_builder.py" "configure_environment.py" "conf/" "command.py" "cmake.py" "client_cache.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/model/" (22600 30293 0 0) "version.py" "values.py" "username.py" "settings.py" "scope.py" "requires.py" "ref.py" "profile.py" "options.py" "manifest.py" "info.py" "env_info.py" "config_dict.py" "conan_generator.py" "conan_file.py" "build_info.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/dotfiles/" (22601 51489 0 0) "zsh/" "README.md" "git/" "emacs/" "cpp/" "bootstrap" ".gitmodules" ".gitignore~" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/test/model/" (22593 56360 0 0) "version_test.py" "version_ranges_test.py" "values_test.py" "transitive_reqs_test.py" "settings_test.py" "scope_test.py" "ref_test.py" "profile_test.py" "other_settings_test.py" "options_test.py" "manifest_test.py" "info_test.py" "env_info_test.py" "build_info_test.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/test/" (22593 56360 0 0) "utils/" "upload_test.py" "update_settings_yml_test.py" "tools_test.py" "tools.py" "tgz_md5_test.py" "runner_test.py" "remote_manager_test.py" "remote/" "registry_test.py" "performance/" "paths_test.py" "path_limit_test.py" "path_exists_test.py" "package_copier_test.py" "output_test.py" "options_in_requirements_test.py" "model/" "local_db_test.py" "libcxx_setting_test.py" "integration/" "generators_test.py" "generators/" "files_test.py" "file_hashes_test.py" "download_test.py" "disk_search_test.py" "detect_test.py" "deps_graph_test.py" "create_package_test.py" "conanfile_tools_test.py" "conanfile_loader_test.py" "conanfile_helpers_test.py" "conanfile_extend_test.py" "conanfile_exception_test.py" "conan_server_config_parser_test.py" "compile_helpers_test.py" "command/" "cmake_test.py" "broken_download_test.py" "auth_test.py" "auth_bearer_test.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/" (22593 56360 0 0) "setup.py" "README.rst" "pylint.cnf" "pyinstaller.py" "LICENSE.md" "contributors.txt" "conans/" "appveyor.yml" "__init__.py" ".travis.yml" ".gitignore" ".git/" ".ci/" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/util/" (22589 56154 0 0) "sha.py" "log.py" "files.py" "env_reader.py" "config_parser.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/client/generators/" (22589 56154 0 0) "ycm.py" "xcode.py" "visualstudio.py" "virtualenv.py" "text.py" "qmake.py" "qbs.py" "gcc.py" "env.py" "cmake.py" "__init__.py" "../" "./")
+
+ ("/Users/opilar/repos/conan-git/conans/" (22589 56154 0 0) "util/" "tools.py" "test/" "server/" "search.py" "requirements_server.txt" "requirements_osx.txt" "requirements_dev.txt" "requirements.txt" "paths.py" "operations.py" "model/" "migrations.py" "errors.py" "conan_server.py" "conan.py" "client/" "__init__.py" "../" "./")
+
+ ("/Users/opilar/Documents/Yandex.Disk/" (22589 53048 0 0) "Фотокамера/" "Скриншоты/" "Документы/" "атестация Ларисы Юрьевны/" "Uni/" "Trash.app" "Poetry/" "Podcasts/" "Photos/" "notes/" "keys/" "img/" "Icon
+" "EGE/" "Books/" "Backup/" ".sync/" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/cmake/sbis-executable/" (22571 27077 0 0) "implementation/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/Documents/Yandex.Disk/keys/" (22585 34756 0 0) "public.txt" "private.txt" "import.md~" "import.md" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/tools/cmake_builder/" (22535 62825 0 0) "tools/" "sbis.cmake" "lib/" "build_sbis_mingw.cmd" "build_sbis.sh" "build_sbis.cmd" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/tools/" (22535 62831 0 0) "worker/" "wieditor/" "tester/" "test_framework/" "SDK/" "sbis-psql/" "pil/" "openssl/" "nobomwrapper/" "macrogen/" "JavaRa/" "icu51/" "icu49/" "icu46/" "iconv/" "httpbin/" "header_checker/" "doxygen/" "db/" "cmake_builder/" "cloud_update_tools/" "build_sbis_rpm/" "build/" "blob-perf-test/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/test/tests/test-sbis-archive/src/" (22556 41540 0 0) "common.hpp" "common.cpp" "CMakeLists.txt" "archive_writer.cpp" "archive_reader.cpp" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/core-server/sbis-archive/sbis-archive/" (22556 37863 0 0) "impexp.hpp" "archive_writer.hpp" "archive_reader.hpp" "archive_format.hpp" "archive_exception.hpp" "archive_entry.hpp" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/core-server/sbis-archive/implementation/" (22556 37933 0 0) "utils.hpp" "utils.cpp" "precomp.h" "precomp.cpp" "archive_writer.cpp" "archive_reader.cpp" "archive_exception.cpp" "archive_entry.cpp" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/core-server/" (22556 37863 0 0) "sbis-workflow-coordinator-client-py/" "sbis-workflow-coordinator-client/" "sbis-websocket/" "sbis-web-server/" "sbis-validation/" "sbis-user/" "sbis-svn-py/" "sbis-svn-client/" "sbis-stress-test-entry-point/" "sbis-stomp-subscription/" "sbis-stomp-server/" "sbis-stats/" "sbis-stat-sender/" "sbis-standalone-auth/" "sbis-ssh-py/" "sbis-ssh/" "sbis-session-storage/" "sbis-runner/" "sbis-rpc-worker/" "sbis-rpc-service/" "sbis-robot-service/" "sbis-right-redis/" "sbis-right/" "sbis-report-prefetch/" "sbis-redis-client-py/" "sbis-python-core/" "sbis-python/" "sbis-postgres-session-storage/" "sbis-params-registration/" "sbis-os-service/" "sbis-olap-server/" "sbis-ofd-entrypoint/" "sbis-multitenancy/" "sbis-multidb/" "sbis-log-sender/" "sbis-load-balancing/" "sbis-libevent/" "sbis-lang/" "sbis-js-xml/" "sbis-js-ws-adaptor/" "sbis-js-transport/" "sbis-js-remote-loader/" "sbis-jni/" "sbis-ipc/" "sbis-http-connector/" "sbis-history/" "sbis-fcgi-connector/" "sbis-event-subscription-py/" "sbis-event-subscription/" "sbis-event-broker/" "sbis-entrypoint-py/" "sbis-entrypoint/" "sbis-email-py/" "sbis-distribution/" "sbis-dbi-sqlite/" "sbis-dbi-session-storage/" "sbis-dbi-py/" "sbis-dbi-postgres/" "sbis-dbi/" "sbis-db-sharding/" "sbis-db-deployment/" "sbis-db-converter-py/" "sbis-db-converter/" "sbis-data-localization/" "sbis-data-deployment/" "sbis-daemon/" "sbis-cloud-interaction/" "sbis-bl-service-py/" "sbis-bl-service/" "sbis-bl-python/" "sbis-bl-metadata-olap/" "sbis-bl-metadata-db/" "sbis-bl-metadata-basic/" "sbis-bl-metadata-auth/" "sbis-bl-core-py/" "sbis-bl-core/" "sbis-bl-cache-service/" "sbis-bl-cache-redis/" "sbis-bl-cache-db/" "sbis-bl-cache/" "sbis-bl-async-offline/" "sbis-bl-async/" "sbis-bl-api-metadata/" "sbis-berkeley-py/" "sbis-berkeley/" "sbis-basic-user/" "sbis-archive-py/" "sbis-archive/" "sbis-api-compatibility/" "sbis-antibot/" "sbis-amqp-client/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/" (22556 37863 0 0) "www/" "tools/" "test/" "sdk-info.json" "resources/" "projects/" "mainpage.dxg" "link_ws.bat" "link_modules.sh" "link_modules.bat" "history.txt" "distr/" "core-server/" "core-common/" "core-client/" "CMakeLists.txt" "client/" ".gitignore" ".gitattributes" ".git" ".clang-format" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/test/tests/" (22556 37863 0 0) "testlib-sbis-db-deployment/" "test-sbis-xml-py/" "test-sbis-xml/" "test-sbis-workflow-py/" "test-sbis-websocket/" "test-sbis-vtd-xml/" "test-sbis-validation/" "test-sbis-user/" "test-sbis-stomp/" "test-sbis-stat-sender/" "test-sbis-ssh/" "test-sbis-shard-client/" "test-sbis-rpc-service-edge/" "test-sbis-rpc-service/" "test-sbis-rpc-client/" "test-sbis-rpc/" "test-sbis-right/" "test-sbis-resources/" "test-sbis-report-prefetch/" "test-sbis-redis-client/" "test-sbis-python-api/" "test-sbis-olap-server/" "test-sbis-ofd-entrypoint/" "test-sbis-multitenancy/" "test-sbis-log-sender/" "test-sbis-loader/" "test-sbis-load-balancing/" "test-sbis-lib/" "test-sbis-lang-bl/" "test-sbis-lang/" "test-sbis-js-engine/" "test-sbis-js/" "test-sbis-jni/" "test-sbis-ipc/" "test-sbis-img/" "test-sbis-event-subscription/" "test-sbis-entrypoint/" "test-sbis-email/" "test-sbis-distribution/" "test-sbis-dbi/" "test-sbis-db-sharding/" "test-sbis-db-select/" "test-sbis-db-converter/" "test-sbis-data-deployment/" "test-sbis-communication/" "test-sbis-cloud-interaction/" "test-sbis-bl-service/" "test-sbis-bl-core/" "test-sbis-bl-cache/" "test-sbis-bl-async-offline/" "test-sbis-bl-async/" "test-sbis-berkeley/" "test-sbis-archive-py/" "test-sbis-archive/" "test-sbis-antibot/" "test-sbis-amqp-client/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/test/tests/test-sbis-archive/resources/" (22556 35793 0 0) "test.zip" "test.rar" "test.7z" "russian_from_windows.zip" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/test/tests/test-sbis-archive/" (22556 35479 0 0) "test.entry" "src/" "resources/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/test/" (22556 35479 0 0) "tests/" "sbis/" "cmake/" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/core-server/sbis-archive/" (22556 35466 0 0) "sbis-archive/" "res/" "libs/" "implementation/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-2/core-common/" (22556 35465 0 0) "sbis-xml-py/" "sbis-xml/" "sbis-xerces/" "sbis-vtd-xml/" "sbis-stomp-client/" "sbis-rpc/" "sbis-redis-client/" "sbis-python-loader/" "sbis-loader/" "sbis-lib/" "sbis-js-engine/" "sbis-img-py/" "sbis-img/" "sbis-email/" "sbis-communication/" "sbis-app-exceptions/" "../" "./")
+
+ ("/Users/opilar/repos/tuhdo.github.io/emacs-tutor/" (22517 27839 0 0) "static/" "setup-emacs-windows.org" "planet.css" "index.org" "helm-projectile.org" "helm-intro.org" "emacs-tutor3.org" "emacs-tutor2.org" "emacs-tutor.org" "emacs-for-proglang.org" "ebrowse.org" "cedet.org" "c-ide.org" "c-ide-irony_bak.org" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-core-external-libs/ImageMagick-6.8.3/" (22536 26674 0 0) "zlib/" "xlib/" "www/" "wmf/" "winpath.sh" "win2k/" "wand/" "VisualMagick/" "version.sh" "utilities/" "ttf/" "tiff/" "tests/" "scripts/" "README.txt" "QuickStart.txt" "png/" "Platforms.txt" "PerlMagick/" "NOTICE" "NEWS.txt" "Makefile.in" "Makefile.am" "Magickshr.opt" "magick.sh.in" "Magick++/" "magick/" "m4/" "LICENSE" "libxml/" "lcms/" "jpeg/" "jp2/" "jbig/" "Install-windows.txt" "Install-vms.txt" "Install-unix.txt" "Install-mac.txt" "index.html" "images/" "ImageMagick.spec.in" "filters/" "dcraw/" "contrib/" "configure.ac" "configure" "config/" "common.shi.in" "coders/" "ChangeLog" "bzlib/" "build.py" "AUTHORS.txt" "aclocal.m4" "../" "./")
+
+ ("/Users/opilar/repos/sbis3/cmake/" (22552 64591 0 0) "sbis.cmake" "sbis-library/" "sbis-executable/" "README.md" "CMakeLists.txt" "../" "./")
+
+ ("/Users/opilar/Documents/Yandex.Disk/Poetry/" (21247 21596 0 0) "старик.md" "сон.mdown" "рутина.md" "почему вы это читаете.txt" "мир пофигистов.mdown" "ладно.txt" "котёнок.txt" "ключ.png" "ключ.md" "вездесущая.txt" "running.md" "favicon_min.PNG" "favicon_16.png" "favicon_128.png" "favicon.png" "favicon.ico" "../" "./")
+
+ ("/Users/opilar/Documents/" (22517 21346 0 0) "Сведения о сотрудниках ГОАУ СПО ЯО Техникума бытового сервиса (штат) по состоянию на 01.12.2014 с указанием имеющихся прививок.pages/" "Курсовая работа - Рыбаков Михаил.pdf" "Курсовая работа - Рыбаков Михаил.docx" "Интерфейс приложения.pdf" "Интерфейс приложения.pages" "Интерфейс приложения.docx" "договоры в работе МОИ.zip" "договоры в работе МОИ/" "Аня/" "Yandex.Disk/" "wallpaper.jpg" "Visual Studio 2013/" "to-do-list.xml" "test/" "Tensor-VPN.networkConnect" "tensor-vpn/" "Sports Interactive/" "Parallels/" "myDocuments.cannedSearch/" "My Videos/" "My Pictures/" "My Music/" "My Games/" "My Documents/" "EmacsCheetSheet.png" "desktop.ini" "Aspyr/" "2.pdf" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21..pages" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21. copy.pages" "1 Индивидуальное Задание. Рыбаков М.А. ИТ21. copy.docx" ".parallels-vm-directory/" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
+
+ ("/Applications/" (22549 65112 0 0) "Yandex.Disk.app/" "Xcode.app/" "Wunderlist.app/" "Writed.app/" "VLC.app/" "VirtualBox.app/" "uTorrent.app/" "Utilities/" "TorBrowser.app/" "Time Machine.app/" "The Unarchiver.app/" "TextEdit.app/" "Telegram.app/" "System Preferences.app/" "Sublime Text.app/" "Stickies.app/" "SopCast.app/" "Skype.app/" "Siri.app/" "Seil.app/" "Safari.app/" "Reminders.app/" "Radio-T.app/" "QuickTime Player.app/" "Qt Creator.app/" "qml-qt5.app/" "Preview.app/" "PopcornTime.app/" "Pomodoro Time.app/" "pixeltool-qt5.app/" "Pixelmator.app/" "pinentry-mac.app/" "Photos.app/" "Photo Booth.app/" "Parallels Desktop.app/" "Pages.app/" "OpenMW/" "Numbers.app/" "Notes.app/" "MPlayerX.app/" "Mission Control.app/" "Minecraft.jar" "Microsoft Remote Desktop.app/" "Messages.app/" "Maps.app/" "Mail.app/" "Linguist-qt5.app/" "Launchpad.app/" "Kodi.app/" "Keynote.app/" "kdiff3.app/" "iTunes.app/" "iPhoto.app/" "IntelliJ IDEA CE.app/" "Image Capture.app/" "iBooks.app/" "Google Chrome.app/" "Games.localized/" "Font Book.app/" "focus booster.app/" "Firefox.app/" "FaceTime.app/" "Evernote.app/" "Emacs.app/" "DVD Player.app/" "DjVu2PDF.app/" "Dictionary.app/" "Designer-qt5.app/" "Dashboard.app/" "Dash.app/" "Contacts.app/" "Cisco/" "Chess.app/" "Calendar.app/" "Calculator.app/" "Automator.app/" "Atom.app/" "Assistant-qt5.app/" "AppCleaner.app/" "App Store.app/" "Android File Transfer.app/" "Alfred 2.app/" "Adobe/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/" (22517 23059 0 0) "yol4a/" "Shared/" "opilar/" ".localized" "../" "./")
+
+ ("/Applications/Emacs.app/" (22493 31851 0 0) "Contents/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/" (22493 32440 0 0) "Resources/" "PkgInfo" "MacOS/" "Info.plist" "_CodeSignature/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/" (22493 31916 0 0) "var/" "site-lisp/" "man/" "lisp/" "info/" "etc/" "English.lproj/" "Emacs.icns" "document.icns" "Credits.html" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/info/" (22493 31870 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "vhdl-mode.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
+
+ ("/Users/opilar/repos/sbis3-core-external-libs/" (22400 54903 0 0) "zlib-1.2.7/" "zint/" "zeromq-4.0.4/" "zbar/" "xz-5.1.2alpha/" "xerces/" "xalan/" "wkhtmltopdf/" "vtd-xml/" "v8/" "rabbitmq-c-0.3.0/" "postgresql-9.1.15/" "poppler-0.35.0/" "png++/" "openssl/" "openjpeg-1.5.2/" "libxslt-1.1.28/" "libxml2-2.9.2/" "libxml2-2.9.1/" "libvmime-0.9.2/" "libvmime-0.9.1/" "libssh/" "libpng-1.5.13/" "libiconv-2/" "libgsasl-1.4.1/" "libevent-2.0.22-stable/" "libarchive-3.2.0/" "lcms2-2.7/" "jpeg-6b/" "ImageMagick-6.8.3/" "icu/" "gdb-7.11.50.20160411/" "FreeImage/" "expat-2.1.1/" "curlpp-0.7.3/" "curl-7.39.0/" "build_utils/" "build.py" "berkeley-db/" "antiword-0.37 (nix src)/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/opilar/repos/conan/" (22529 18639 0 0) "zlib/" "use/" "openssl/" "jpeg/" "jbigkit/" "hello-use/" "hello/" "boost/" ".DS_Store" "../" "./")
+
+ ("/Users/opilar/repos/conan/jbigkit/" (22529 16876 0 0) "conaninfo.txt" "conanfile.py~" "conanfile.py" "conanbuildinfo.gcc" "__pycache__/" "../" "./")
+
+ ("/Users/opilar/dotfiles/emacs/emacs.d.symlink/auto-save-list/" (22518 43022 0 0) ".saves-702-opilarium-2.local~" "../" "./")
+
+ ("/Users/opilar/repos/tuhdo.github.io/" (22517 27408 0 0) "theindex.html" "static/" "setup-emacs-windows.html" "README.md" "index.html" "helm-projectile.html" "helm-intro.html" "helm-eshell-history.gif" "emacs-tutor3.html" "emacs-tutor2.html" "emacs-tutor.html" "emacs-tutor/" "emacs-for-proglang.html" "c-ide.html" "archive.html" ".git/" "../" "./")
+
+ ("/Users/opilar/dotfiles/emacs/" (22436 64140 0 0) "emacs.d.symlink/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

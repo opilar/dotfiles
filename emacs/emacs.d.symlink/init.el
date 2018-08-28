@@ -136,3 +136,9 @@ re-downloaded in order to locate PACKAGE."
 (setq next-line-add-newlines t)
 
 (set-default-font "Inconsolata 14")
+
+;; Org Mode
+(require-package 'org)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)

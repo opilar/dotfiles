@@ -43,7 +43,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (cmake-font-lock cmake-ide cmake-project pass ido-vertical-mode highlight-symbol flycheck autopair company-mode auto-package-update cmake-mode magit zenburn-theme projectile)))
+    (company cmake-font-lock cmake-ide cmake-project pass ido-vertical-mode highlight-symbol flycheck autopair company-mode auto-package-update cmake-mode magit zenburn-theme projectile)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
