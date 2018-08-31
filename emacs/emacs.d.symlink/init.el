@@ -1,11 +1,16 @@
 (setq user-full-name "Michael Rybakov")
 (setq user-mail-address "opilar@ya.ru")
 
+(setq is-windows (memq system-type '(windows-nt ms-dos)))
+
 (require 'package)
-(add-to-list 'package-archives
-     '("melpa" . "https://melpa.org/packages/"))
-(add-to-list 'package-archives
-     '("elpy" . "https://jorgenschaefer.github.io/packages/"))
+(let* ((proto (if is-windows "http" "https")))
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 
 (package-initialize)
 
@@ -61,6 +66,11 @@ re-downloaded in order to locate PACKAGE."
 
 ;; plugins
 (require-package 'projectile)
+(projectile-mode +1)
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+(if is-windows
+    (setq projectile-indexing-method 'alien))
 
 ; (desktop-save-mode t)
 
@@ -69,11 +79,9 @@ re-downloaded in order to locate PACKAGE."
 (setq ido-everywhere t)
 (require-package 'ido-vertical-mode)
 
-(require-package 'solarized-theme)
+; (require-package 'solarized-theme)
 
-(if window-system
-    (load-theme 'wombat t)
-  (load-theme 'wombat t))
+(load-theme 'wombat t)
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
@@ -100,7 +108,7 @@ re-downloaded in order to locate PACKAGE."
 
 (setq revert-without-query '(".*"))
 
-; (require-package 'auto-package-update)
+; (require-package 'auto-update)
 ; (auto-package-update-maybe)
 
 (setq custom-file "~/.emacs.d/custom.el")
@@ -135,7 +143,10 @@ re-downloaded in order to locate PACKAGE."
 
 (setq next-line-add-newlines t)
 
-(set-default-font "Inconsolata 14")
+(if is-windows
+    (set-face-attribute `default nil
+			:family "Source Code Pro" :height 94)
+  (set-default-font "Inconsolata 14"))
 
 ;; Org Mode
 (require-package 'org)
