@@ -72,7 +72,7 @@ re-downloaded in order to locate PACKAGE."
 (require-package 'solarized-theme)
 
 (if window-system
-    (load-theme 'solarized-light t)
+    (load-theme 'wombat t)
   (load-theme 'wombat t))
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
