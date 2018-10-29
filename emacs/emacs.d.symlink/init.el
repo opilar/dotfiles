@@ -145,7 +145,7 @@ re-downloaded in order to locate PACKAGE."
 
 (if is-windows
     (set-face-attribute `default nil
-			:family "Source Code Pro" :height 94)
+            :family "Source Code Pro" :height 94)
   (set-default-font "Inconsolata 14"))
 
 ;; Org Mode
@@ -153,3 +153,6 @@ re-downloaded in order to locate PACKAGE."
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
+
+(require-package 'helm)
+(helm-mode 1)
